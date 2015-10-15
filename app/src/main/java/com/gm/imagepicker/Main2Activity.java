@@ -114,7 +114,7 @@ public class Main2Activity extends AppCompatActivity {
     private void onSelectFromGalleryResult(Intent data)  {
         Uri selectedImageUri = data.getData();
         try {
-            ivImage.setImageBitmap(ImagePicker.getInstance(this).getThumbnail(selectedImageUri));
+            ivImage.setImageBitmap(ImagePicker.getInstance().getThumbnail(selectedImageUri));
         } catch (IOException e) {
             e.printStackTrace();
         }

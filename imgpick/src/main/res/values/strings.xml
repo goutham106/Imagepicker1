@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ImgPick</string>
+    <string name="initBitmapConfig">Please Initiate the compress format and image quality in App Config</string>
+    <string name="initTempFilePath">Please Initiate the FilePath in App Config</string>
 </resources>

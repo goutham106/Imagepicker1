@@ -67,7 +67,7 @@ public class Main3Activity extends AppCompatActivity {
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-
+        super.onActivityResult(requestCode, resultCode, data);
 
         if (resultCode == RESULT_OK) {
             if (data.getData() != null) {
@@ -91,9 +91,9 @@ public class Main3Activity extends AppCompatActivity {
                 // ImagePicker imagePicker = new ImagePicker();
 
                 try {
-                    Uri e = ImagePicker.getInstance(this).storeImage(ImagePicker.getInstance(this).getThumbnail(selectedImageUri));
-                    Log.e("PATH", ImagePicker.getInstance(this).getPath(e));
-                    Log.e("PATH", ImagePicker.getInstance(this).getPath(selectedImageUri));
+                    Uri e = ImagePicker.getInstance().storeImage(ImagePicker.getInstance().getThumbnail(selectedImageUri));
+                    Log.e("PATH", ImagePicker.getInstance().getPath(e));
+                    Log.e("PATH", ImagePicker.getInstance().getPath(selectedImageUri));
                     //preview.setImageBitmap(ImagePicker.getInstance(this).getThumbnail(selectedImageUri));
                     preview.setImageURI(e);
                 } catch (IOException e) {

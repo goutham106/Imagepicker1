@@ -1,5 +1,30 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'image-picker'
+
+    publishedGroupId = 'com.gm.imagepicker'
+    libraryName = 'Imagepicker1'
+    artifact = 'image-picker'
+
+    libraryDescription = 'This is a library for accessing the image from gallery its a beta version'
+
+    siteUrl = 'https://github.com/goutham106/Imagepicker1'
+    gitUrl = 'https://github.com/goutham106/Imagepicker1.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'goutham106'
+    developerName = 'Goutham'
+    developerEmail = 'goutham.gm11@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -23,3 +48,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
 }
+
+//apply from: 'https://raw.githubusercontent.com/goutham106/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/goutham106/JCenter/master/bintrayv1.gradle'
+//apply from: '../install.gradle'
+//apply from: '../bintray.gradle'

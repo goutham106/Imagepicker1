@@ -1,11 +1,9 @@
 package com.gm.imagepicker;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +13,6 @@ import android.widget.Toast;
 
 import com.gm.imgpick.ImagePicker;
 
-import java.io.File;
 import java.io.IOException;
 
 public class Main3Activity extends AppCompatActivity {

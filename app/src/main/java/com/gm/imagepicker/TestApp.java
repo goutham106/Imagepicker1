@@ -2,7 +2,6 @@ package com.gm.imagepicker;
 
 import android.app.Application;
 import android.content.Context;
-import android.database.ContentObserver;
 import android.graphics.Bitmap;
 
 import com.gm.imgpick.ImagePicker;

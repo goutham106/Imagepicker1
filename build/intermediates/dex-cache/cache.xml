@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/exploded-aar/Imagepicker/imgpick/unspecified/jars/classes.jar"
+        jar="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/exploded-aar/com.gm.imagepicker/imgpick/0.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1b151f9d0dc55ff3226e4efe62d8f0e4ea2376df">
-        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/classes-048f7cdc6789f307c9f38f28ac13033646fd1f5d.jar" />
+        sha1="84cc9ebe14bc6159287df63079578065af1db6d3">
+        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/classes-e57a2844e338fdf93f1fb0e02ab2232fc9e19b8a.jar" />
+    </item>
+    <item
+        jar="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/classes-07aa1566ba951d7dc8dd1a3932513440667c46b2.jar" />
+    </item>
+    <item
+        jar="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-84b52fdedcdfbe728cb9b1fdc1cd7c602bff9435.jar" />
+    </item>
+    <item
+        jar="/home/gowtham/Software/AndroidSDK/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-ca749eff58f2d1a1dc22067b36bc497243ea71ab.jar" />
+    </item>
+    <item
+        jar="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/gowtham/AndroidStudioProjects/Imagepicker/app/build/intermediates/pre-dexed/debug/classes-8ba808b691f2939f2d5b14382944731ed4460ff4.jar" />
     </item>
 
 </items>

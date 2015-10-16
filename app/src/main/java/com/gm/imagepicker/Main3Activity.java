@@ -91,8 +91,8 @@ public class Main3Activity extends AppCompatActivity {
                     Uri e = ImagePicker.getInstance().storeImage(ImagePicker.getInstance().getThumbnail(selectedImageUri));
                     Log.e("PATH", ImagePicker.getInstance().getPath(e));
                     Log.e("PATH", ImagePicker.getInstance().getPath(selectedImageUri));
-                    //preview.setImageBitmap(ImagePicker.getInstance(this).getThumbnail(selectedImageUri));
-                    preview.setImageURI(e);
+                    preview.setImageBitmap(ImagePicker.getInstance(this).getThumbnail(selectedImageUri));
+                   // preview.setImageURI(e);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
